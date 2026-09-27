@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                     <div id="ai-messages" class="p-4 h-64 overflow-y-auto flex flex-col space-y-3 text-sm">
                         <div class="bg-gray-100 dark:bg-gray-700 p-2 rounded-lg self-start max-w-[85%] text-gray-800 dark:text-gray-200 shadow-sm">
-                            Hi! I'm Finn. Need help mapping out your finances or understanding these calculators?
+                            Hi! I'm Finn. Your personal finance friend. What can I help you with?
                         </div>
                     </div>
                     <div class="p-3 border-t border-gray-200 dark:border-darkBorder flex gap-2">
