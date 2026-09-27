@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const navbarHTML = `
         <nav class="p-4 bg-white dark:bg-darkCard shadow-sm flex justify-between items-center transition-colors">
             <a href="https://nonsenseian.github.io/" class="text-xl font-bold text-gray-800 dark:text-white flex items-center gap-3">
-                <img src="https://nonsenseian.github.io/nonsenseian_logo.jpg" alt="Nonsenseian Logo" class="w-8 h-8 rounded-full shadow-sm border border-gray-200 dark:border-gray-700 object-cover">
+                <img src="https://nonsenseian.github.io/nonsenseian_logo.png" alt="Nonsenseian Logo" class="w-8 h-8 rounded-full shadow-sm border border-gray-200 dark:border-gray-700 object-cover">
                 Nonsenseian Finance
             </a>
             <button onclick="toggleDarkMode()" class="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 transition-colors">
