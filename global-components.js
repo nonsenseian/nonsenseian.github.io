@@ -59,6 +59,12 @@ document.addEventListener("DOMContentLoaded", () => {
 // --- STATE MANAGEMENT ---
 window.FinanceState = {
     load: function() {
+        // If this is a brand new browsing session, wipe the old local storage
+        if (!sessionStorage.getItem('session_active')) {
+            localStorage.removeItem('finance_state');
+            sessionStorage.setItem('session_active', 'true');
+        }
+        
         const data = localStorage.getItem('finance_state');
         return data ? JSON.parse(data) : { assets: {}, liabilities: {}, income: {} };
     },
