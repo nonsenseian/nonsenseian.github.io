@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-    // 1. Inject the standard Navbar
+    // 1. Inject the standard Navbar with Logo
     const navbarHTML = `
         <nav class="p-4 bg-white dark:bg-darkCard shadow-sm flex justify-between items-center transition-colors">
-            <a href="/" class="text-xl font-bold text-gray-800 dark:text-white flex items-center gap-2">
+            <a href="https://nonsenseian.github.io/" class="text-xl font-bold text-gray-800 dark:text-white flex items-center gap-3">
+                <img src="https://nonsenseian.github.io/nonsenseian_logo.jpg" alt="Nonsenseian Logo" class="w-8 h-8 rounded-full shadow-sm border border-gray-200 dark:border-gray-700 object-cover">
                 Nonsenseian Finance
             </a>
             <button onclick="toggleDarkMode()" class="p-2 rounded-lg bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 transition-colors">
@@ -31,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     </div>
                     <div id="ai-messages" class="p-4 h-64 overflow-y-auto flex flex-col space-y-3 text-sm">
                         <div class="bg-gray-100 dark:bg-gray-700 p-2 rounded-lg self-start max-w-[85%] text-gray-800 dark:text-gray-200 shadow-sm">
-                            Hi! I'm Finn. Your personal finance friend. What can I help you with?
+                            Hi! I'm Finn. Need help mapping out your finances or understanding these calculators?
                         </div>
                     </div>
                     <div class="p-3 border-t border-gray-200 dark:border-darkBorder flex gap-2">
